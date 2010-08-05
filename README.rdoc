@@ -1,0 +1,3 @@
+=gedit-external-tools
+
+Some usefull external tools for gedit. Most writen in Ruby.

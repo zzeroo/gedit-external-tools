@@ -1,0 +1,29 @@
+#!/usr/bin/env ruby
+# [Gedit Tool]
+# Name=upcase
+# Shortcut=<Control>u
+# Applicability=all
+# Output=replace-selection
+# Input=selection
+# Save-files=nothing
+
+# [Gedit Tool]
+# Name=[selection] crypto hash
+# Shortcut=<Control><Alt>x
+# Applicability=all
+# Output=replace-selection
+# Input=selection
+# Save-files=nothing
+
+
+# Replaces selected text with a sha/md5 hash value of it
+# (depends on: ruby, zenity)
+#
+# Save: Nothing
+# Input: Current selection
+# Output: Replace current selection
+#
+# by Jan Lelis (mail@janlelis.de), edited by (you?)
+
+
+puts $stdin.read.upcase
